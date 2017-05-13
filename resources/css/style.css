@@ -23,18 +23,16 @@ h3 {
   font-weight: bold;
 }
 
-#process h4 {
+.process h4 {
   font-size: 23px;
   font-weight: bold;
 }
 
-#process p {
+.process p {
   font-size: 14px
 }
 
-#newyork {
-  font-size: 23px;
-  font-weight: bold;
+.process #newyork {
   color: white;
   background-image: url("../images/the-flatiron-building.png");
 }
