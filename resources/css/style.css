@@ -3,44 +3,55 @@ html {
   font-family: helvetica;
 }
 
-#topnav {
+header {
   background-image: url("../images/the-flatiron-building.png");
 }
 
-#topnav h1 {
+h1 {
   font-size: 70px;
   font-weight: bold;
   color: white;
 }
 
-#topnav a {
+ul {
+  list-style-type: none;
+}
+
+li{
+  margin-top: 1em;
+  font-weight: bold;
+}
+
+a {
   font-size: 18px;
   color: white;
 }
 
-.process h3 {
+h3 {
   font-size: 32px;
   font-weight: bold;
 }
 
-.process h4 {
+h4 {
   font-size: 23px;
   font-weight: bold;
 }
 
-.process p {
+p {
   font-size: 14px
 }
 
-.process #newyork {
+#nyc {
   color: white;
   background-image: url("../images/the-flatiron-building.png");
 }
 
-footer p,
-  a {
-  font-size: 11px;
-  color: white;
+footer{
   background-color: dimgray;
   text-align: left;
+}
+
+#copyright {
+  font-size: 11px;
+  color: white;
 }
